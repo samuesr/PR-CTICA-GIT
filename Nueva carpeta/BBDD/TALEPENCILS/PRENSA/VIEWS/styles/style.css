@@ -1,0 +1,27 @@
+h1{text-align: center;}
+nav {background-color: black;
+text-align: center;
+height: 40px;}
+nav>div{display: inline-block;
+width: 15%;
+align-items: center;
+text-align: center;}
+nav div a{
+    color: white;
+    text-decoration: none;
+}
+nav div a a:link{
+    text-decoration: none;
+    color: white;
+}
+.selected{
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td{
+ border: 2px solid green;   
+}
